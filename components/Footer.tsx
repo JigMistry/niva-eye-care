@@ -161,17 +161,11 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Niva Eye Care. All rights
             reserved.
           </p>
-          <button
-            onClick={scrollToTop}
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 transition-all hover:bg-cyan-600 hover:text-white"
-            aria-label="Scroll to top"
-          >
-            <ArrowUp className="h-5 w-5" />
-          </button>
+          
         </div>
 
         {/* Crafted by */}
-        <div className="mt-2 border-gray-800/50 pt-2 text-center">
+        {/* <div className="mt-2 border-gray-800/50 pt-2 text-center">
           <p className="text-xs text-gray-600">
             Crafted with &#10084; by{" "}
             <a
@@ -183,8 +177,15 @@ export default function Footer() {
               Jignesh
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
+      <button
+        onClick={scrollToTop}
+        className="flex fixed bottom-2 right-2 h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 transition-all hover:bg-cyan-600 hover:text-white"
+        aria-label="Scroll to top"
+      >
+        <ArrowUp className="h-5 w-5" />
+      </button>
     </footer>
   );
 }
