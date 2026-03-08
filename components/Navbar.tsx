@@ -104,11 +104,17 @@ export default function Navbar() {
               {navLinks.map((link, i) => (
                 <motion.a
                   key={link.href}
-                  href={link.href}
+                  // href={link.href}
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.05 }}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    setTimeout(() => {  
+                    document.querySelector(link.href)?.scrollIntoView({
+                      behavior: "smooth",
+                    });}, 300);
+                  }}
                   className="block rounded-lg px-4 py-3 text-base font-medium text-gray-700 transition-colors hover:bg-cyan-50 hover:text-cyan-700"
                 >
                   {link.label}
