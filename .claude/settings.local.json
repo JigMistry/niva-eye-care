@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(nvm ls)",
+      "Bash(nvm which 22)",
+      "Bash(/Users/jigneshmistry/.nvm/versions/node/v22.16.0/bin/npm install)",
+      "Bash(/Users/jigneshmistry/.nvm/versions/node/v22.16.0/bin/node /Users/jigneshmistry/.nvm/versions/node/v22.16.0/bin/npm install)",
+      "Bash(/Users/jigneshmistry/.nvm/versions/node/v22.16.0/bin/node -e \"try { require\\(''@tailwindcss/oxide-darwin-arm64''\\); console.log\\(''OK''\\) } catch\\(e\\) { console.log\\(e.message\\) }\")",
+      "Bash(PATH=\"/Users/jigneshmistry/.nvm/versions/node/v22.16.0/bin:$PATH\" npm install)"
+    ]
+  }
+}
