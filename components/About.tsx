@@ -36,7 +36,7 @@ export default function About() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="relative bg-white py-20 lg:py-28">
+    <section id="about" className="relative bg-white py-10 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" ref={ref}>
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left - Visual */}

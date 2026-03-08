@@ -238,9 +238,9 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.7 }}
-        className="absolute bottom-0 left-0 right-0 border-t border-gray-100 bg-white/70 backdrop-blur-md"
+        className="relative bottom-0 left-0 right-0 border-t border-gray-100 bg-white/70 backdrop-blur-md"
       >
-        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 px-4 py-5 sm:px-6 md:grid-cols-4 lg:px-8">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-8">
           {[
             { value: "10+", label: "Years Experience" },
             { value: "5000+", label: "Happy Patients" },
