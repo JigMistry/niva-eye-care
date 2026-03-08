@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Niva Eye Care | Best Eye Hospital in Ahmedabad | Dr. Minal Patel",
+  title: "Niva Eye Care | Best Eye Hospital in Ahmedabad | Dr. Minal M. Patel",
   description:
-    "Niva Eye Care is a leading eye hospital in Ahmedabad offering cataract surgery, LASIK, glaucoma treatment, and comprehensive eye care. Rated 4.9/5 by 300+ patients. Visit Dr. Minal Patel at Bhuyangdev, Ahmedabad.",
+    "Niva Eye Care is a leading eye hospital in Ahmedabad offering cataract surgery, LASIK, glaucoma treatment, and comprehensive eye care. Rated 4.9/5 by 300+ patients. Visit Dr. Minal M. Patel at Bhuyangdev, Ahmedabad.",
   keywords: [
     "eye hospital Ahmedabad",
     "best eye doctor Ahmedabad",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Niva Eye Care | Best Eye Hospital in Ahmedabad",
     description:
-      "Leading eye care hospital in Ahmedabad with 4.9/5 rating. Expert cataract surgery, LASIK, glaucoma treatment by Dr. Minal Patel.",
+      "Leading eye care hospital in Ahmedabad with 4.9/5 rating. Expert cataract surgery, LASIK, glaucoma treatment by Dr. Minal M. Patel.",
     url: "https://nivaeyecare.in",
     siteName: "Niva Eye Care",
     locale: "en_IN",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Niva Eye Care | Best Eye Hospital in Ahmedabad",
     description:
-      "Expert eye care by Dr. Minal Patel. Cataract, LASIK, Glaucoma treatment. Rated 4.9/5.",
+      "Expert eye care by Dr. Minal M. Patel. Cataract, LASIK, Glaucoma treatment. Rated 4.9/5.",
   },
   robots: {
     index: true,

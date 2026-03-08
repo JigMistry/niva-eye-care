@@ -46,7 +46,7 @@ export default function Hero() {
                 <div className="relative h-28 w-28 overflow-hidden rounded-full ring-4 ring-cyan-200/50 sm:h-32 sm:w-32">
                   <Image
                     src="/dr_minal_patel_.png"
-                    alt="Dr. Minal Patel"
+                    alt="Dr. Minal M. Patel"
                     fill
                     sizes="128px"
                     className="object-cover object-top"

@@ -53,7 +53,7 @@ export default function Doctor() {
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Meet{" "}
-            <span className="gradient-text">Dr. Minal Patel</span>
+            <span className="gradient-text">Dr. Minal M. Patel</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             An experienced and highly skilled ophthalmologist dedicated to
@@ -75,7 +75,7 @@ export default function Doctor() {
                 <div className="relative h-40 w-40 overflow-hidden rounded-full ring-4 ring-white/30 sm:h-48 sm:w-48">
                   <Image
                     src="/dr_minal_patel_.png"
-                    alt="Dr. Minal Patel - Ophthalmologist at Niva Eye Care Ahmedabad"
+                    alt="Dr. Minal M. Patel - Ophthalmologist at Niva Eye Care Ahmedabad"
                     fill
                     sizes="(max-width: 640px) 160px, 192px"
                     className="object-cover object-top"
@@ -83,7 +83,7 @@ export default function Doctor() {
                   />
                 </div>
                 <h3 className="mt-6 text-center text-2xl font-bold">
-                  Dr. Minal Patel
+                  Dr. Minal M. Patel
                 </h3>
                 <p className="mt-1 text-center text-cyan-100">
                   MS (Ophthalmology)
@@ -107,10 +107,10 @@ export default function Doctor() {
               {/* Details */}
               <div className="p-6 sm:p-8 md:col-span-3 md:p-10">
                 <h4 className="text-xl font-bold text-gray-900">
-                  About Dr. Minal Patel
+                  About Dr. Patel
                 </h4>
                 <p className="mt-4 leading-relaxed text-gray-600">
-                  Dr. Minal Patel is a renowned ophthalmologist and{" "}
+                  Dr. Minal M. Patel is a renowned ophthalmologist and{" "}
                   <span className="font-semibold text-amber-600">Gold Medalist in MS (Ophthalmology)</span>,
                   with a passion for restoring and preserving vision. With over a
                   decade of experience, she specializes in advanced cataract

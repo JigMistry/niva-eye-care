@@ -99,7 +99,7 @@ export default function About() {
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
               At Niva Eye Care, we believe that everyone deserves clear vision
-              and healthy eyes. Led by Dr. Minal Patel, our hospital provides
+              and healthy eyes. Led by Dr. Minal M. Patel, our hospital provides
               personalized eye care using the latest diagnostic equipment and
               surgical techniques.
             </p>
