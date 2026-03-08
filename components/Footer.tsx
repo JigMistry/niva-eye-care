@@ -1,6 +1,8 @@
 "use client";
 
 import { Eye, MapPin, Phone, Mail, Clock, ArrowUp } from "lucide-react";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const quickLinks = [
   { href: "#home", label: "Home" },
@@ -21,9 +23,24 @@ const services = [
 ];
 
 export default function Footer() {
+  const [showScrollToTopButton, setShowScrollToTopButton] = useState(false);
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollToTopButton(true);
+      } else {
+        setShowScrollToTopButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <footer className="relative bg-gray-900 text-gray-300">
@@ -165,7 +182,7 @@ export default function Footer() {
         </div>
 
         {/* Crafted by */}
-        {/* <div className="mt-2 border-gray-800/50 pt-2 text-center">
+        <div className="mt-2 border-gray-800/50 pt-2 text-center">
           <p className="text-xs text-gray-600">
             Crafted with &#10084; by{" "}
             <a
@@ -177,15 +194,23 @@ export default function Footer() {
               Jignesh
             </a>
           </p>
-        </div> */}
+        </div>
       </div>
-      <button
+      {/* <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.7, delay: 0.2 }}
+          ></motion.div> */}
+      {<motion.button
+        initial={{ opacity: 0 }}
+        animate={showScrollToTopButton ? { opacity: 1} : {}}
+        transition={{ duration: 0.7, delay: 0.2 }}
         onClick={scrollToTop}
-        className="flex fixed bottom-2 right-2 h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 transition-all hover:bg-cyan-600 hover:text-white"
+        className="flex fixed bottom-3 right-2 h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 transition-all hover:bg-cyan-600 hover:text-white"
         aria-label="Scroll to top"
       >
         <ArrowUp className="h-5 w-5" />
-      </button>
+      </motion.button>}
     </footer>
   );
 }
