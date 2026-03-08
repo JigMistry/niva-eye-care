@@ -83,7 +83,7 @@ const jsonLd = {
   image: "https://nivaeyecare.in/og-image.jpg",
   "@id": "https://nivaeyecare.in",
   url: "https://nivaeyecare.in",
-  telephone: "+91-79-XXXX-XXXX",
+  telephone: "+919426077766",
   address: {
     "@type": "PostalAddress",
     streetAddress:
