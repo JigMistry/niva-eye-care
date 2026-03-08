@@ -39,7 +39,7 @@ export default function Doctor() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="doctor" className="relative bg-white py-20 lg:py-28">
+    <section id="doctor" className="relative bg-white py-10 lg:py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Header */}
         <motion.div
@@ -107,7 +107,7 @@ export default function Doctor() {
               {/* Details */}
               <div className="p-6 sm:p-8 md:col-span-3 md:p-10">
                 <h4 className="text-xl font-bold text-gray-900">
-                  About Dr. Patel
+                  About Dr. Minal Patel
                 </h4>
                 <p className="mt-4 leading-relaxed text-gray-600">
                   Dr. Minal Patel is a renowned ophthalmologist and{" "}

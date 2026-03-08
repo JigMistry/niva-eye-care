@@ -34,7 +34,7 @@ const contactInfo = [
     title: "Call Us",
     lines: ["For Appointments & Enquiries", "Phone: +91 79 XXXX XXXX"],
     isLink: true,
-    href: "tel:+917900000000",
+    href: "tel:+919426077766",
   },
   {
     icon: Mail,
@@ -107,7 +107,7 @@ export default function Contact() {
             {/* Quick Actions */}
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <a
-                href="tel:+917900000000"
+                href="tel:+919426077766"
                 className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-emerald-500 px-6 py-4 text-sm font-semibold text-white shadow-lg shadow-cyan-600/25 transition-all hover:-translate-y-0.5 hover:shadow-xl"
               >
                 <Phone className="h-5 w-5" />

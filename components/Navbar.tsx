@@ -67,7 +67,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden items-center gap-3 lg:flex">
             <a
-              href="tel:+917900000000"
+              href="tel:+919426077766"
               className="flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-600 to-emerald-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-cyan-600/25 transition-all hover:shadow-xl hover:shadow-cyan-600/30"
             >
               <Phone className="h-4 w-4" />
@@ -115,7 +115,7 @@ export default function Navbar() {
                 </motion.a>
               ))}
               <a
-                href="tel:+917900000000"
+                href="tel:+919426077766"
                 className="mt-3 flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-600 to-emerald-500 px-5 py-3 text-sm font-semibold text-white"
               >
                 <Phone className="h-4 w-4" />

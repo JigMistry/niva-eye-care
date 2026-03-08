@@ -30,7 +30,7 @@ export default function Footer() {
       {/* Top gradient line */}
       <div className="h-1 bg-gradient-to-r from-cyan-500 via-emerald-500 to-cyan-500" />
 
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-16 pb-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
@@ -61,7 +61,7 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-cyan-400" />
                 <a
-                  href="tel:+917900000000"
+                  href="tel:+919426077766"
                   className="text-sm text-gray-400 hover:text-cyan-400"
                 >
                   +91 79 XXXX XXXX
@@ -168,6 +168,21 @@ export default function Footer() {
           >
             <ArrowUp className="h-5 w-5" />
           </button>
+        </div>
+
+        {/* Crafted by */}
+        <div className="mt-2 border-gray-800/50 pt-2 text-center">
+          <p className="text-xs text-gray-600">
+            Crafted with &#10084; by{" "}
+            <a
+              href="https://www.linkedin.com/in/jignesh-mistry-85a27a25a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-gray-500 transition-colors hover:text-cyan-400"
+            >
+              Jignesh
+            </a>
+          </p>
         </div>
       </div>
     </footer>

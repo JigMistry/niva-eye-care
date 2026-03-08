@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Heart, Shield, Award, Users } from "lucide-react";
+import { Heart, Shield, Award, Users, Eye } from "lucide-react";
 
 const values = [
   {
@@ -41,8 +41,8 @@ export default function About() {
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left - Visual */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1} : {}}
             transition={{ duration: 0.8 }}
             className="relative"
           >
@@ -50,8 +50,8 @@ export default function About() {
               <div className="rounded-[calc(1.5rem-4px)] bg-gradient-to-br from-cyan-50 to-emerald-50 p-8 sm:p-12">
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-600 to-emerald-500 text-3xl text-white shadow-lg">
-                      👁️
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-600 to-emerald-500">
+                      <Eye className="h-6 w-6 text-white" />
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900">

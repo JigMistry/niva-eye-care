@@ -85,7 +85,8 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.7 }}
               className="text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
             >
-              Your Vision,{" "}
+              Your Vision,
+              <br className="sm:hidden" />{" "}
               <span className="gradient-text">Our Mission</span>
             </motion.h1>
 
@@ -108,7 +109,7 @@ export default function Hero() {
               className="mt-8 flex flex-col items-center gap-4 sm:flex-row lg:justify-start"
             >
               <a
-                href="tel:+917900000000"
+                href="tel:+919426077766"
                 className="group flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-600 to-emerald-500 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-cyan-600/25 transition-all hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-cyan-600/30 sm:w-auto"
               >
                 <Phone className="h-5 w-5" />
