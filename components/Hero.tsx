@@ -98,7 +98,7 @@ export default function Hero() {
             >
               Experience world-class eye care at Niva Eye Care, Ahmedabad.
               Advanced treatments for cataract, LASIK, and glaucoma by
-              experienced ophthalmologist Dr. Minal Patel.
+              experienced ophthalmologist Dr. Minal M. Patel.
             </motion.p>
 
             {/* CTA Buttons */}
