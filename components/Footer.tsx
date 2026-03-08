@@ -54,7 +54,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-cyan-400" />
                 <p className="text-sm text-gray-400">
-                  Pushpraj Arcade, Sola Road, Above Axis Bank, Near Bhuyangdev
+                  101, Pushpraj Arcade, Sola Road, Above Axis Bank, Near Bhuyangdev
                   BRTS, Ahmedabad - 380063
                 </p>
               </div>
@@ -64,7 +64,7 @@ export default function Footer() {
                   href="tel:+919426077766"
                   className="text-sm text-gray-400 hover:text-cyan-400"
                 >
-                  +91 79 XXXX XXXX
+                  +919426077766
                 </a>
               </div>
               <div className="flex items-center gap-3">

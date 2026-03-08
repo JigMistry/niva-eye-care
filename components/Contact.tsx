@@ -15,7 +15,7 @@ const contactInfo = [
     icon: MapPin,
     title: "Visit Us",
     lines: [
-      "Pushpraj Arcade, Sola Road",
+      "101, Pushpraj Arcade, Sola Road",
       "Above Axis Bank, Near Bhuyangdev BRTS",
       "Bhuyangdev, Ahmedabad - 380063",
     ],
@@ -32,7 +32,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["For Appointments & Enquiries", "Phone: +91 79 XXXX XXXX"],
+    lines: ["For Appointments & Enquiries", "Phone: 079 2743 1530, 94260 77766"],
     isLink: true,
     href: "tel:+919426077766",
   },
