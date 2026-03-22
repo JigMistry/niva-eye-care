@@ -50,10 +50,9 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 py-20 lg:py-28"
+      className="relative overflow-hidden bg-linear-to-b from-white to-gray-50 py-20 lg:py-28"
     >
-      {/* Background decoration */}
-      <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-50/40 blur-3xl" />
+      <div className="absolute left-1/2 top-0 h-125 w-125 -translate-x-1/2 rounded-full bg-primary/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Header */}
@@ -63,12 +62,11 @@ export default function Testimonials() {
           transition={{ duration: 0.7 }}
           className="mx-auto max-w-2xl text-center"
         >
-          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-cyan-600">
+          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
             Testimonials
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            What Our{" "}
-            <span className="gradient-text">Patients Say</span>
+            What Our <span className="gradient-text">Patients Say</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             Hear from our patients about their experience at Niva Eye Care.
@@ -86,27 +84,22 @@ export default function Testimonials() {
               transition={{ duration: 0.5, delay: 0.1 + i * 0.1 }}
               className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-7"
             >
-              <Quote className="absolute right-4 top-4 h-8 w-8 text-cyan-100 transition-colors group-hover:text-cyan-200" />
+              <Quote className="absolute right-4 top-4 h-8 w-8 text-primary/15 transition-colors group-hover:text-primary/25" />
               <div className="flex items-center gap-1">
                 {[...Array(t.rating)].map((_, j) => (
-                  <Star
-                    key={j}
-                    className="h-4 w-4 fill-amber-400 text-amber-400"
-                  />
+                  <Star key={j} className="h-4 w-4 fill-amber-400 text-amber-400" />
                 ))}
               </div>
               <p className="mt-4 leading-relaxed text-gray-600">{t.text}</p>
               <div className="mt-5 flex items-center gap-3 border-t border-gray-100 pt-5">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500 to-emerald-400 text-sm font-bold text-white">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-linear-to-br from-primary to-primary-dark text-sm font-bold text-white">
                   {t.name
                     .split(" ")
                     .map((n) => n[0])
                     .join("")}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-gray-900">
-                    {t.name}
-                  </p>
+                  <p className="text-sm font-semibold text-gray-900">{t.name}</p>
                   <p className="text-xs text-gray-500">{t.procedure}</p>
                 </div>
               </div>
@@ -114,7 +107,7 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* Google Rating Badge */}
+        {/* Rating Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -129,10 +122,7 @@ export default function Testimonials() {
           >
             <div className="flex items-center gap-1">
               {[...Array(5)].map((_, i) => (
-                <Star
-                  key={i}
-                  className="h-4 w-4 fill-amber-400 text-amber-400"
-                />
+                <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" />
               ))}
             </div>
             <span className="text-sm font-semibold text-gray-700">

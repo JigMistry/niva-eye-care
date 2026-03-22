@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, Eye } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -30,22 +30,24 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "glass shadow-lg shadow-cyan-900/5"
+          ? "glass shadow-lg shadow-[#066D82]/5"
           : "bg-transparent"
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between lg:h-20">
           {/* Logo */}
-          <a href="#home" className="flex shrink-0 items-center gap-2">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-600 to-emerald-500">
-              <Eye className="h-6 w-6 text-white" />
-            </div>
+          <a href="#home" className="flex shrink-0 items-center gap-3">
+            <img
+              src="/niva-eye-logo.svg"
+              alt="Niva Eye Care"
+              className="h-10 w-auto"
+            />
             <div className="whitespace-nowrap">
               <span className="text-xl font-bold tracking-tight text-gray-900">
                 Niva
               </span>
-              <span className="text-xl font-bold tracking-tight text-cyan-700">
+              <span className="text-xl font-bold tracking-tight" style={{ color: "#066D82" }}>
                 {" "}Eye Care
               </span>
             </div>
@@ -57,7 +59,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-cyan-50 hover:text-cyan-700"
+                className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-[#066D82]/10 hover:text-[#066D82]"
               >
                 {link.label}
               </a>
@@ -68,7 +70,8 @@ export default function Navbar() {
           <div className="hidden items-center gap-3 lg:flex">
             <a
               href="tel:+919426077766"
-              className="flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-600 to-emerald-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-cyan-600/25 transition-all hover:shadow-xl hover:shadow-cyan-600/30"
+              className="flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-[#C84939]/25 transition-all hover:shadow-xl hover:shadow-[#C84939]/35 hover:-translate-y-0.5"
+              style={{ backgroundColor: "#C84939" }}
             >
               <Phone className="h-4 w-4" />
               Book Appointment
@@ -104,25 +107,26 @@ export default function Navbar() {
               {navLinks.map((link, i) => (
                 <motion.a
                   key={link.href}
-                  // href={link.href}
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.05 }}
                   onClick={() => {
                     setIsMobileMenuOpen(false);
-                    setTimeout(() => {  
-                    document.querySelector(link.href)?.scrollIntoView({
-                      behavior: "smooth",
-                    });}, 300);
+                    setTimeout(() => {
+                      document.querySelector(link.href)?.scrollIntoView({
+                        behavior: "smooth",
+                      });
+                    }, 300);
                   }}
-                  className="block rounded-lg px-4 py-3 text-base font-medium text-gray-700 transition-colors hover:bg-cyan-50 hover:text-cyan-700"
+                  className="block rounded-lg px-4 py-3 text-base font-medium text-gray-700 transition-colors hover:bg-[#066D82]/10 hover:text-[#066D82]"
                 >
                   {link.label}
                 </motion.a>
               ))}
               <a
                 href="tel:+919426077766"
-                className="mt-3 flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-600 to-emerald-500 px-5 py-3 text-sm font-semibold text-white"
+                className="mt-3 flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-white"
+                style={{ backgroundColor: "#C84939" }}
               >
                 <Phone className="h-4 w-4" />
                 Book Appointment

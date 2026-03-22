@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-cyan-700 via-cyan-800 to-emerald-800 py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-gradient-to-br from-primary/10 via-primary/20 to-primary/30 py-20 lg:py-28">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div
@@ -70,14 +70,14 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.7 }}
           className="mx-auto max-w-2xl text-center"
         >
-          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-cyan-300">
+          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
             Why Choose Us
           </span>
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
             Why Patients Trust{" "}
-            <span className="text-emerald-300">Niva Eye Care</span>
+            <span className="gradient-text">Niva Eye Care</span>
           </h2>
-          <p className="mt-4 text-lg text-cyan-100">
+          <p className="mt-4 text-lg text-gray-700">
             We go beyond treatment to ensure a comprehensive and comfortable
             healthcare experience for every patient.
           </p>
@@ -91,10 +91,10 @@ export default function WhyChooseUs() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 + i * 0.1 }}
-              className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 hover:border-white/20 hover:bg-white/10 sm:p-7"
+              className="group rounded-2xl border border-white/10  p-6 bg-primary backdrop-blur-sm transition-all duration-300   sm:p-7"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 transition-colors group-hover:bg-emerald-400/20">
-                <reason.icon className="h-6 w-6 text-emerald-300" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 transition-colors">
+                <reason.icon className="h-6 w-6 text-white" />
               </div>
               <h3 className="mt-4 text-lg font-bold text-white">
                 {reason.title}

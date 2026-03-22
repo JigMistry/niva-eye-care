@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #0e7490;
-  --color-primary-dark: #0c5e75;
-  --color-primary-light: #22d3ee;
-  --color-secondary: #064e3b;
-  --color-accent: #10b981;
-  --color-accent-light: #d1fae5;
+  --color-primary: #066D82;
+  --color-primary-dark: #054f60;
+  --color-primary-light: #0899b5;
+  --color-secondary: #C84939;
+  --color-accent: #C84939;
+  --color-accent-light: #fce9e7;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -31,17 +31,17 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0e7490;
+  background: #066D82;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0c5e75;
+  background: #054f60;
 }
 
 /* Gradient text utility */
 .gradient-text {
-  background: linear-gradient(135deg, #0e7490, #10b981);
+  background: linear-gradient(135deg, #066D82, #C84939);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -78,8 +78,8 @@ body {
 
 /* Pulse glow */
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(14, 116, 144, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(14, 116, 144, 0.6); }
+  0%, 100% { box-shadow: 0 0 20px rgba(6, 109, 130, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(6, 109, 130, 0.6); }
 }
 
 .animate-pulse-glow {

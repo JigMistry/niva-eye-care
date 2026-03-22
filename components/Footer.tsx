@@ -1,6 +1,6 @@
 "use client";
 
-import { Eye, MapPin, Phone, Mail, Clock, ArrowUp } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, ArrowUp } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -30,36 +30,30 @@ export default function Footer() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowScrollToTopButton(true);
-      } else {
-        setShowScrollToTopButton(false);
-      }
+      setShowScrollToTopButton(window.scrollY > 300);
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <footer className="relative bg-gray-900 text-gray-300">
       {/* Top gradient line */}
-      <div className="h-1 bg-gradient-to-r from-cyan-500 via-emerald-500 to-cyan-500" />
+      <div className="h-1 bg-linear-to-r from-primary via-secondary to-primary" />
 
       <div className="mx-auto max-w-7xl px-4 py-16 pb-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <a href="#home" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-emerald-400">
-                <Eye className="h-6 w-6 text-white" />
-              </div>
+            <a href="#home" className="flex items-center gap-3">
+              <img
+                src="/niva-eye-logo.svg"
+                alt="Niva Eye Care"
+                className="h-8 w-auto brightness-0 invert"
+              />
               <div>
                 <span className="text-xl font-bold text-white">Niva</span>
-                <span className="text-xl font-bold text-cyan-400">
-                  {" "}Eye Care
-                </span>
+                <span className="text-xl font-bold text-primary-light"> Eye Care</span>
               </div>
             </a>
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
@@ -69,26 +63,26 @@ export default function Footer() {
             </p>
             <div className="mt-6 space-y-3">
               <div className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-cyan-400" />
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary-light" />
                 <p className="text-sm text-gray-400">
                   101, Pushpraj Arcade, Sola Road, Above Axis Bank, Near Bhuyangdev
                   BRTS, Ahmedabad - 380063
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="h-4 w-4 shrink-0 text-cyan-400" />
+                <Phone className="h-4 w-4 shrink-0 text-primary-light" />
                 <a
                   href="tel:+919426077766"
-                  className="text-sm text-gray-400 hover:text-cyan-400"
+                  className="text-sm text-gray-400 hover:text-primary-light"
                 >
                   +919426077766
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="h-4 w-4 shrink-0 text-cyan-400" />
+                <Mail className="h-4 w-4 shrink-0 text-primary-light" />
                 <a
                   href="mailto:info@nivaeyecare.in"
-                  className="text-sm text-gray-400 hover:text-cyan-400"
+                  className="text-sm text-gray-400 hover:text-primary-light"
                 >
                   info@nivaeyecare.in
                 </a>
@@ -106,7 +100,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-sm text-gray-400 transition-colors hover:text-cyan-400"
+                    className="text-sm text-gray-400 transition-colors hover:text-primary-light"
                   >
                     {link.label}
                   </a>
@@ -125,7 +119,7 @@ export default function Footer() {
                 <li key={service}>
                   <a
                     href="#services"
-                    className="text-sm text-gray-400 transition-colors hover:text-cyan-400"
+                    className="text-sm text-gray-400 transition-colors hover:text-primary-light"
                   >
                     {service}
                   </a>
@@ -141,33 +135,21 @@ export default function Footer() {
             </h4>
             <div className="mt-4 space-y-3">
               <div className="flex items-start gap-3 rounded-xl bg-gray-800 p-4">
-                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-cyan-400" />
+                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-primary-light" />
                 <div>
-                  <p className="text-sm font-medium text-white">
-                    Monday - Friday
-                  </p>
-                  <p className="mt-1 text-sm text-gray-400">
-                    10:00 AM - 1:00 PM
-                  </p>
-                  <p className="text-sm text-gray-400">
-                    5:30 PM - 7:30 PM
-                  </p>
+                  <p className="text-sm font-medium text-white">Monday - Friday</p>
+                  <p className="mt-1 text-sm text-gray-400">10:00 AM - 1:00 PM</p>
+                  <p className="text-sm text-gray-400">5:30 PM - 7:30 PM</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-xl bg-gray-800 p-4">
-                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-cyan-400" />
+                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-primary-light" />
                 <div>
-                  <p className="text-sm font-medium text-white">
-                    Saturday
-                  </p>
-                  <p className="mt-1 text-sm text-gray-400">
-                    By Appointment Only
-                  </p>
+                  <p className="text-sm font-medium text-white">Saturday</p>
+                  <p className="mt-1 text-sm text-gray-400">By Appointment Only</p>
                 </div>
               </div>
-              <p className="text-xs text-gray-500">
-                * Sunday & Public Holidays: Closed
-              </p>
+              <p className="text-xs text-gray-500">* Sunday & Public Holidays: Closed</p>
             </div>
           </div>
         </div>
@@ -175,10 +157,8 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-gray-800 pt-8 sm:flex-row">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Niva Eye Care. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Niva Eye Care. All rights reserved.
           </p>
-          
         </div>
 
         {/* Crafted by */}
@@ -189,28 +169,24 @@ export default function Footer() {
               href="https://www.linkedin.com/in/jignesh-mistry-85a27a25a"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-gray-500 transition-colors hover:text-cyan-400"
+              className="font-medium text-gray-500 transition-colors hover:text-primary-light"
             >
               Jignesh
             </a>
           </p>
         </div>
       </div>
-      {/* <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.7, delay: 0.2 }}
-          ></motion.div> */}
-      {<motion.button
+
+      <motion.button
         initial={{ opacity: 0 }}
-        animate={showScrollToTopButton ? { opacity: 1} : {}}
+        animate={showScrollToTopButton ? { opacity: 1 } : {}}
         transition={{ duration: 0.7, delay: 0.2 }}
         onClick={scrollToTop}
-        className="flex fixed bottom-3 right-2 h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 transition-all hover:bg-cyan-600 hover:text-white"
+        className="fixed bottom-3 right-2 flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 transition-all hover:bg-secondary hover:text-white"
         aria-label="Scroll to top"
       >
         <ArrowUp className="h-5 w-5" />
-      </motion.button>}
+      </motion.button>
     </footer>
   );
 }

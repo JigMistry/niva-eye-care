@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Heart, Shield, Award, Users, Eye } from "lucide-react";
+import { Heart, Shield, Award, Users } from "lucide-react";
 
 const values = [
   {
@@ -42,40 +42,37 @@ export default function About() {
           {/* Left - Visual */}
           <motion.div
             initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1} : {}}
+            animate={isInView ? { opacity: 1 } : {}}
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-cyan-600 to-emerald-500 p-1">
-              <div className="rounded-[calc(1.5rem-4px)] bg-gradient-to-br from-cyan-50 to-emerald-50 p-8 sm:p-12">
+            <div className="relative overflow-hidden rounded-3xl bg-primary/10 p-1">
+              <div className="rounded-[calc(1.5rem-4px)] p-8 sm:p-12">
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-600 to-emerald-500">
-                      <Eye className="h-6 w-6 text-white" />
-                    </div>
+                    <img
+                      src="/niva-eye-logo.svg"
+                      alt="Niva Eye Care"
+                      className="h-10 w-auto"
+                    />
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900">
-                        Since 2014
-                      </h3>
-                      <p className="text-gray-600">
-                        Serving Ahmedabad with care
-                      </p>
+                      <h3 className="text-2xl font-bold text-gray-900">Since 2014</h3>
+                      <p className="text-gray-600">Serving Ahmedabad with care</p>
                     </div>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-cyan-200 to-emerald-200" />
+                  <div className="h-px bg-linear-to-r from-primary/30 to-secondary/20" />
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Niva Eye Care has been a trusted name in comprehensive
-                    eye healthcare in Ahmedabad for over a decade. We combine
-                    advanced medical technology with a personal touch that
-                    makes every patient feel at home.
+                    Niva Eye Care has been a trusted name in comprehensive eye healthcare
+                    in Ahmedabad for over a decade. We combine advanced medical technology
+                    with a personal touch that makes every patient feel at home.
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="rounded-xl bg-white/80 p-4 text-center shadow-sm">
-                      <p className="text-2xl font-bold text-cyan-700">5000+</p>
+                      <p className="text-2xl font-bold text-primary">5000+</p>
                       <p className="text-sm text-gray-500">Procedures Done</p>
                     </div>
                     <div className="rounded-xl bg-white/80 p-4 text-center shadow-sm">
-                      <p className="text-2xl font-bold text-cyan-700">99%</p>
+                      <p className="text-2xl font-bold text-primary">99%</p>
                       <p className="text-sm text-gray-500">Success Rate</p>
                     </div>
                   </div>
@@ -90,7 +87,7 @@ export default function About() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-cyan-600">
+            <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
               About Us
             </span>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -98,15 +95,14 @@ export default function About() {
               <span className="gradient-text">Ahmedabad</span>
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              At Niva Eye Care, we believe that everyone deserves clear vision
-              and healthy eyes. Led by Dr. Minal M. Patel, our hospital provides
-              personalized eye care using the latest diagnostic equipment and
-              surgical techniques.
+              At Niva Eye Care, we believe that everyone deserves clear vision and healthy
+              eyes. Led by Dr. Minal M. Patel, our hospital provides personalized eye care
+              using the latest diagnostic equipment and surgical techniques.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              From routine eye check-ups to complex surgeries like cataract and
-              LASIK, our team ensures that you receive the highest quality
-              treatment in a comfortable and stress-free environment.
+              From routine eye check-ups to complex surgeries like cataract and LASIK, our
+              team ensures that you receive the highest quality treatment in a comfortable
+              and stress-free environment.
             </p>
 
             <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -118,16 +114,12 @@ export default function About() {
                   transition={{ duration: 0.5, delay: 0.4 + i * 0.1 }}
                   className="group flex gap-4"
                 >
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-cyan-600 transition-colors group-hover:bg-cyan-600 group-hover:text-white">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                     <item.icon className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">
-                      {item.title}
-                    </h4>
-                    <p className="mt-1 text-sm text-gray-500">
-                      {item.description}
-                    </p>
+                    <h4 className="font-semibold text-gray-900">{item.title}</h4>
+                    <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                   </div>
                 </motion.div>
               ))}

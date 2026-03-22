@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(command -v nvm)",
+      "Read(//opt/homebrew/Cellar/nvm/0.40.3/libexec/**)",
+      "Read(//Users/jigneshmistry/Documents/projects/claude_workspace/**)"
+    ]
+  }
+}

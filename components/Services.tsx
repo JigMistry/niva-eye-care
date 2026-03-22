@@ -56,11 +56,10 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="relative bg-gradient-to-b from-gray-50 to-white py-20 lg:py-28"
+      className="relative bg-linear-to-b from-gray-50 to-white py-20 lg:py-28"
     >
-      {/* Background decoration */}
-      <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-cyan-50/50 blur-3xl" />
-      <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-emerald-50/50 blur-3xl" />
+      <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
+      <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-secondary/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Header */}
@@ -70,7 +69,7 @@ export default function Services() {
           transition={{ duration: 0.7 }}
           className="mx-auto max-w-2xl text-center"
         >
-          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-cyan-600">
+          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
             Our Services
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -91,26 +90,19 @@ export default function Services() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 + i * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-cyan-100/50 sm:p-8"
+              className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/10 sm:p-8"
             >
               {/* Gradient overlay on hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-600 to-emerald-500 opacity-0 transition-opacity duration-300 group-hover:opacity-[0.03]" />
+              <div className="absolute inset-0 bg-linear-to-br from-primary to-secondary opacity-0 transition-opacity duration-300 group-hover:opacity-[0.03]" />
 
               <div className="relative">
                 <span className="text-4xl">{service.icon}</span>
-                <h3 className="mt-4 text-xl font-bold text-gray-900">
-                  {service.title}
-                </h3>
-                <p className="mt-3 text-gray-600 leading-relaxed">
-                  {service.description}
-                </p>
+                <h3 className="mt-4 text-xl font-bold text-gray-900">{service.title}</h3>
+                <p className="mt-3 leading-relaxed text-gray-600">{service.description}</p>
                 <ul className="mt-4 space-y-2">
                   {service.features.map((feature) => (
-                    <li
-                      key={feature}
-                      className="flex items-center gap-2 text-sm text-gray-500"
-                    >
-                      <div className="h-1.5 w-1.5 rounded-full bg-cyan-500" />
+                    <li key={feature} className="flex items-center gap-2 text-sm text-gray-500">
+                      <div className="h-1.5 w-1.5 rounded-full bg-primary" />
                       {feature}
                     </li>
                   ))}
@@ -118,7 +110,7 @@ export default function Services() {
                 <div className="mt-6">
                   <a
                     href="#contact"
-                    className="inline-flex items-center gap-1 text-sm font-semibold text-cyan-600 transition-colors group-hover:text-cyan-700"
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-primary transition-colors group-hover:text-primary-dark"
                   >
                     Learn More
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

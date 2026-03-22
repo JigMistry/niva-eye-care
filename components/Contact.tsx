@@ -2,13 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import {
-  MapPin,
-  Phone,
-  Clock,
-  Mail,
-  Navigation,
-} from "lucide-react";
+import { MapPin, Phone, Clock, Mail, Navigation } from "lucide-react";
 
 const contactInfo = [
   {
@@ -50,7 +44,7 @@ export default function Contact() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" className="relative bg-white py-20 lg:py-28">
+    <section id="contact" className="relative bg-white py-20 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Header */}
         <motion.div
@@ -59,7 +53,7 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="mx-auto max-w-2xl text-center"
         >
-          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-cyan-600">
+          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
             Contact Us
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -85,19 +79,15 @@ export default function Contact() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
-                  className="group rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all duration-300 hover:border-cyan-200 hover:bg-cyan-50/50 hover:shadow-lg"
+                  className="group rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all duration-300 hover:border-primary/30 hover:bg-primary/5 hover:shadow-lg"
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-100 text-cyan-600 transition-colors group-hover:bg-cyan-600 group-hover:text-white">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/15 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                     <item.icon className="h-6 w-6" />
                   </div>
-                  <h4 className="mt-4 text-lg font-bold text-gray-900">
-                    {item.title}
-                  </h4>
+                  <h4 className="mt-4 text-lg font-bold text-gray-900">{item.title}</h4>
                   <div className="mt-2 space-y-1">
                     {item.lines.map((line) => (
-                      <p key={line} className="text-sm text-gray-600">
-                        {line}
-                      </p>
+                      <p key={line} className="text-sm text-gray-600">{line}</p>
                     ))}
                   </div>
                 </motion.div>
@@ -108,7 +98,7 @@ export default function Contact() {
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <a
                 href="tel:+919426077766"
-                className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-emerald-500 px-6 py-4 text-sm font-semibold text-white shadow-lg shadow-cyan-600/25 transition-all hover:-translate-y-0.5 hover:shadow-xl"
+                className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-secondary px-6 py-4 text-sm font-semibold text-white shadow-lg shadow-secondary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl"
               >
                 <Phone className="h-5 w-5" />
                 Call for Appointment
@@ -117,7 +107,7 @@ export default function Contact() {
                 href="https://maps.google.com/?q=23.0611414,72.5346015"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-1 items-center justify-center gap-2 rounded-xl border-2 border-gray-200 bg-white px-6 py-4 text-sm font-semibold text-gray-700 transition-all hover:border-cyan-300 hover:bg-cyan-50"
+                className="flex flex-1 items-center justify-center gap-2 rounded-xl border-2 border-gray-200 bg-white px-6 py-4 text-sm font-semibold text-gray-700 transition-all hover:border-primary/30 hover:bg-primary/5"
               >
                 <Navigation className="h-5 w-5" />
                 Get Directions
