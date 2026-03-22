@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nivaeyecare.in/sitemap.xml",
+    sitemap: "https://nivaeyecare.com/sitemap.xml",
   };
 }

@@ -41,7 +41,7 @@ export default function Navbar() {
             <img
               src="/niva-eye-logo.svg"
               alt="Niva Eye Care"
-              className="h-10 w-auto"
+              className="h-8 w-auto"
             />
             <div className="whitespace-nowrap">
               <span className="text-xl font-bold tracking-tight text-gray-900">
