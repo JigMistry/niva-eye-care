@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-niva.png",
         width: 1200,
         height: 630,
         alt: "Niva Eye Care Hospital Ahmedabad",
