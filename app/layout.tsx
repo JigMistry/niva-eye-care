@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Niva Eye Care | Best Eye Hospital in Ahmedabad",
     description:
       "Leading eye care hospital in Ahmedabad with 4.9/5 rating. Expert cataract surgery, LASIK, glaucoma treatment by Dr. Minal M. Patel.",
-    url: "https://nivaeyecare.com",
+    url: "https://niva-eyecare.vercel.app",
     siteName: "Niva Eye Care",
     locale: "en_IN",
     type: "website",
