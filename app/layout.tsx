@@ -15,20 +15,55 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Niva Eye Care | Best Eye Hospital in Ahmedabad | Dr. Minal M. Patel",
   description:
-    "Niva Eye Care is a leading eye hospital in Ahmedabad offering cataract surgery, LASIK, glaucoma treatment, and comprehensive eye care. Rated 4.9/5 by 300+ patients. Visit Dr. Minal M. Patel at Bhuyangdev, Ahmedabad.",
+    "Niva Eye Care is a leading eye hospital in Ahmedabad offering cataract surgery (phacoemulsification), LASIK, glaucoma treatment, retinal laser, YAG laser, diabetic eye treatment, and comprehensive eye care. Rated 4.9/5. Visit Dr. Minal M. Patel — Gold Medalist MS Ophthalmologist — at Sola Road, Bhuyangdev, Ahmedabad.",
   keywords: [
+    // Core
     "eye hospital Ahmedabad",
     "best eye doctor Ahmedabad",
-    "cataract surgery Ahmedabad",
-    "LASIK eye surgery Ahmedabad",
-    "glaucoma treatment Ahmedabad",
-    "eye specialist Bhuyangdev",
-    "Dr Minal Patel eye doctor",
     "Niva Eye Care",
     "eye clinic near me",
-    "computerized eye testing Ahmedabad",
     "ophthalmologist Ahmedabad",
     "eye care hospital Gujarat",
+    "best ophthalmologist Gujarat",
+    "eye hospital since 2014 Ahmedabad",
+
+    // Services
+    "cataract surgery Ahmedabad",
+    "phacoemulsification Ahmedabad",
+    "intraocular lens implant Ahmedabad",
+    "IOL surgery Ahmedabad",
+    "LASIK eye surgery Ahmedabad",
+    "LASIK cost Ahmedabad",
+    "glaucoma treatment Ahmedabad",
+    "glaucoma specialist Ahmedabad",
+    "computerized eye testing Ahmedabad",
+    "retinal laser treatment Ahmedabad",
+    "YAG laser treatment Ahmedabad",
+    "diabetic retinopathy treatment Ahmedabad",
+    "diabetic eye disease treatment Ahmedabad",
+    "dry eye treatment Ahmedabad",
+    "eye check up Ahmedabad",
+    "spectacle prescription Ahmedabad",
+    "eye number check Ahmedabad",
+    "vision correction Ahmedabad",
+    "myopia treatment Ahmedabad",
+    "cataract operation cost Ahmedabad",
+    "5000 eye surgeries Ahmedabad",
+
+    // Doctor
+    "Dr Minal Patel eye doctor",
+    "Dr Minal Patel ophthalmologist Ahmedabad",
+    "MBBS MS ophthalmologist Ahmedabad",
+    "gold medalist eye doctor Ahmedabad",
+    "cataract specialist Ahmedabad",
+
+    // Local SEO
+    "eye specialist Bhuyangdev",
+    "eye doctor Sola Road Ahmedabad",
+    "eye hospital Ghatlodia",
+    "eye clinic near Bhuyangdev BRTS",
+    "eye specialist Naranpura",
+    "eye specialist Chandkheda",
   ],
   authors: [{ name: "Niva Eye Care" }],
   creator: "Niva Eye Care",
@@ -120,9 +155,15 @@ const jsonLd = {
   medicalSpecialty: "Ophthalmology",
   availableService: [
     { "@type": "MedicalProcedure", name: "Cataract Surgery" },
+    { "@type": "MedicalProcedure", name: "Phacoemulsification" },
+    { "@type": "MedicalProcedure", name: "Intraocular Lens Implant" },
     { "@type": "MedicalProcedure", name: "LASIK Eye Surgery" },
     { "@type": "MedicalProcedure", name: "Glaucoma Treatment" },
+    { "@type": "MedicalProcedure", name: "Retinal Laser Treatment" },
+    { "@type": "MedicalProcedure", name: "YAG Laser Treatment" },
+    { "@type": "MedicalProcedure", name: "Diabetic Retinopathy Treatment" },
     { "@type": "MedicalProcedure", name: "Computerized Eye Testing" },
+    { "@type": "MedicalProcedure", name: "Dry Eye Treatment" },
   ],
 };
 
