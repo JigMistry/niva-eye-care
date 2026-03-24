@@ -20,7 +20,7 @@ const qualifications = [
   {
     icon: Award,
     title: "Specialization",
-    detail: "Cataract & Refractive Surgery",
+    detail: "Cataract and Glaucoma specialist",
   },
   {
     icon: Stethoscope,
