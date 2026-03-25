@@ -14,7 +14,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <main>
         <Hero />
         <About />
@@ -27,8 +27,8 @@ export default function Home() {
       </main>
       <Footer />
       <Analytics />
-      <SpeedInsights /> */}
-      <div style={{
+      <SpeedInsights />
+      {/* <div style={{
         display: "flex",
         height: "100vh",
         alignItems: "center",
@@ -38,7 +38,7 @@ export default function Home() {
       }}>
         <h1>🚧 We’re under maintenance</h1>
         <p>We’ll be back shortly. Thanks for your patience.</p>
-      </div>
+      </div> */}
     </>
   );
 }
