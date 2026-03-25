@@ -162,7 +162,7 @@ export default function Footer() {
         </div>
 
         {/* Crafted by */}
-        <div className="mt-2 border-gray-800/50 pt-2 text-center">
+        {/* <div className="mt-2 border-gray-800/50 pt-2 text-center">
           <p className="text-xs text-gray-600">
             Crafted with &#10084; by{" "}
             <a
@@ -174,7 +174,7 @@ export default function Footer() {
               Jignesh
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
 
       <motion.button

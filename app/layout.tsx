@@ -115,9 +115,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
   name: "Niva Eye Care",
-  image: "https://nivaeyecare.in/og-image.jpg",
-  "@id": "https://nivaeyecare.in",
-  url: "https://nivaeyecare.in",
+  image: "https://nivaeyecare.com/og-niva.png",
+  "@id": "https://nivaeyecare.com",
+  url: "https://nivaeyecare.com",
   telephone: "+919426077766",
   address: {
     "@type": "PostalAddress",
