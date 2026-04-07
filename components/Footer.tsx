@@ -59,7 +59,7 @@ export default function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
               Leading eye care hospital in Ahmedabad providing comprehensive
               ophthalmology services with advanced technology and compassionate
-              care since 2014.
+              care since 2012.
             </p>
             <div className="mt-6 space-y-3">
               <div className="flex items-start gap-3">
@@ -81,10 +81,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-primary-light" />
                 <a
-                  href="mailto:info@nivaeyecare.com"
+                  href="mailto:mmpatel_111@yahoo.com"
                   className="text-sm text-gray-400 hover:text-primary-light"
                 >
-                  info@nivaeyecare.com
+                  mmpatel_111@yahoo.com
                 </a>
               </div>
             </div>
@@ -139,14 +139,14 @@ export default function Footer() {
                 <div>
                   <p className="text-sm font-medium text-white">Monday - Friday</p>
                   <p className="mt-1 text-sm text-gray-400">10:00 AM - 1:00 PM</p>
-                  <p className="text-sm text-gray-400">5:30 PM - 7:30 PM</p>
+                  <p className="text-sm text-gray-400">5:00 PM - 7:00 PM</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-xl bg-gray-800 p-4">
                 <Clock className="mt-0.5 h-5 w-5 shrink-0 text-primary-light" />
                 <div>
                   <p className="text-sm font-medium text-white">Saturday</p>
-                  <p className="mt-1 text-sm text-gray-400">By Appointment Only</p>
+                  <p className="mt-1 text-sm text-gray-400">10:00 AM - 12:00 PM</p>
                 </div>
               </div>
               <p className="text-xs text-gray-500">* Sunday & Public Holidays: Closed</p>

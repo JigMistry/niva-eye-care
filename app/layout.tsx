@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "ophthalmologist Ahmedabad",
     "eye care hospital Gujarat",
     "best ophthalmologist Gujarat",
-    "eye hospital since 2014 Ahmedabad",
+    "eye hospital since 2012 Ahmedabad",
 
     // Services
     "cataract surgery Ahmedabad",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "vision correction Ahmedabad",
     "myopia treatment Ahmedabad",
     "cataract operation cost Ahmedabad",
-    "5000 eye surgeries Ahmedabad",
+    "10000 eye surgeries Ahmedabad",
 
     // Doctor
     "Dr Minal Patel eye doctor",

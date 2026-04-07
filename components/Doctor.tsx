@@ -25,12 +25,12 @@ const qualifications = [
   {
     icon: Stethoscope,
     title: "Experience",
-    detail: "10+ Years in Ophthalmology",
+    detail: "20+ Years in Ophthalmology",
   },
   {
     icon: Clock,
     title: "Procedures",
-    detail: "5000+ Successful Surgeries",
+    detail: "10,000+ Successful Surgeries",
   },
 ];
 
@@ -89,7 +89,7 @@ export default function Doctor() {
                   <span className="text-sm font-semibold text-amber-100">Gold Medalist</span>
                 </div>
                 <div className="mt-2 flex items-center gap-1 rounded-full bg-white/10 px-4 py-2">
-                  <span className="text-sm font-medium">10+ Years Experience</span>
+                  <span className="text-sm font-medium">20+ Years Experience</span>
                 </div>
               </div>
 
@@ -101,9 +101,9 @@ export default function Doctor() {
                   <span className="font-semibold text-amber-600">
                     Gold Medalist in MS (Ophthalmology)
                   </span>
-                  , with a passion for restoring and preserving vision. With over a decade
+                  , with a passion for restoring and preserving vision. With over a 20 years
                   of experience, she specializes in advanced cataract surgery
-                  (phacoemulsification), LASIK, and glaucoma management.
+                  (phacoemulsification) and glaucoma management. Have done fellowship in Glaucoma from Aravind Eye Hospital, Madurai. Dr. Patel is committed to providing personalized care and achieving the best outcomes for her patients.
                 </p>
                 <p className="mt-3 leading-relaxed text-gray-600">
                   Known for her gentle approach and meticulous attention to detail, Dr.

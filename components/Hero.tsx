@@ -91,7 +91,7 @@ export default function Hero() {
               className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-gray-600 lg:mx-0"
             >
               Experience world-class eye care at Niva Eye Care, Ahmedabad.
-              Advanced treatments for cataract, LASIK, and glaucoma by
+              Advanced treatments for cataract and glaucoma by
               experienced ophthalmologist Dr. Minal M. Patel.
             </motion.p>
 
@@ -214,10 +214,11 @@ export default function Hero() {
       >
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-8">
           {[
-            { value: "10+", label: "Years Experience" },
-            { value: "5000+", label: "Happy Patients" },
+            { value: "20+", label: "Years Experience" },
+            { value: "15,000+", label: "Happy Patients" },
+            { value: "10,000+", label: "Successful Surgeries" },
             { value: "4.9", label: "Google Rating" },
-            { value: "6+", label: "Specializations" },
+            
           ].map((stat, i) => (
             <motion.div
               key={stat.label}

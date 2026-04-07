@@ -10,14 +10,7 @@ const services = [
     title: "Cataract Surgery",
     description:
       "Advanced phacoemulsification cataract surgery with premium intraocular lens implants for crystal-clear vision restoration.",
-    features: ["Micro-incision surgery", "Premium IOL options", "Day-care procedure"],
-  },
-  {
-    icon: "✨",
-    title: "LASIK Eye Surgery",
-    description:
-      "State-of-the-art laser vision correction to free you from glasses and contact lenses permanently.",
-    features: ["Bladeless technology", "Quick recovery", "High precision"],
+    features: ["No Injection - No Stitches - No Patch", "Premium IOL options", "Day-care procedure"],
   },
   {
     icon: "🛡️",
@@ -26,6 +19,14 @@ const services = [
       "Comprehensive glaucoma diagnosis, monitoring, and treatment to preserve your vision and prevent further damage.",
     features: ["Early detection", "Medical & surgical options", "Regular monitoring"],
   },
+  {
+    icon: "✨",
+    title: "LASIK Eye Surgery",
+    description:
+      "State-of-the-art laser vision correction to free you from glasses and contact lenses permanently.",
+    features: ["Bladeless technology", "Quick recovery", "High precision"],
+  },
+  
   {
     icon: "💻",
     title: "Computerized Eye Testing",
@@ -44,8 +45,8 @@ const services = [
     icon: "⚡",
     title: "Eye Laser Treatment",
     description:
-      "Precision laser procedures for various retinal conditions, diabetic eye disease, and other disorders.",
-    features: ["Retinal laser", "YAG laser", "Safe & effective"],
+      "Precision laser procedures for Glaucoma, posterior capsular opacification and other disorders.",
+    features: ["YAG laser - Capsulotomy", "YAG laser - Peripheral iridotomy", "Safe & effective"],
   },
 ];
 

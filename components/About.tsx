@@ -15,7 +15,7 @@ const values = [
     icon: Shield,
     title: "Safety First",
     description:
-      "We follow the highest standards of hygiene and safety protocols for every procedure.",
+      "We follow the highest standards of sterility, safety protocols and hygiene.",
   },
   {
     icon: Award,
@@ -38,7 +38,7 @@ export default function About() {
   return (
     <section id="about" className="relative bg-white py-10 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" ref={ref}>
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="grid items-start gap-16 lg:grid-cols-2">
           {/* Left - Visual */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -56,7 +56,7 @@ export default function About() {
                       className="h-10 w-auto"
                     />
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Since 2014</h3>
+                      <h3 className="text-2xl font-bold text-gray-900">Since 2012</h3>
                       <p className="text-gray-600">Serving Ahmedabad with care</p>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export default function About() {
                     in Ahmedabad for over a decade. We combine advanced medical technology
                     with a personal touch that makes every patient feel at home.
                   </p>
-                  <div className="grid grid-cols-2 gap-4">
+                  {/* <div className="grid grid-cols-2 gap-4">
                     <div className="rounded-xl bg-white/80 p-4 text-center shadow-sm">
                       <p className="text-2xl font-bold text-primary">5000+</p>
                       <p className="text-sm text-gray-500">Procedures Done</p>
@@ -75,7 +75,7 @@ export default function About() {
                       <p className="text-2xl font-bold text-primary">99%</p>
                       <p className="text-sm text-gray-500">Success Rate</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function About() {
               using the latest diagnostic equipment and surgical techniques.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              From routine eye check-ups to complex surgeries like cataract and LASIK, our
+              From routine eye check-ups to complex surgeries like cataract, our
               team ensures that you receive the highest quality treatment in a comfortable
               and stress-free environment.
             </p>
