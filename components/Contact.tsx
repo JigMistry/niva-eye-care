@@ -20,7 +20,8 @@ const contactInfo = [
     lines: [
       "Monday - Friday",
       "Morning: 10:00 AM - 1:00 PM",
-      "Evening: 5:30 PM - 7:30 PM",
+      "Evening: 5:00 PM - 7:00 PM",
+      "Saturday - Morning: 10:00 AM - 12:00 PM",
     ],
   },
   {
