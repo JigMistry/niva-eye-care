@@ -77,6 +77,12 @@ export default function Footer() {
                 >
                   +919426077766
                 </a>
+                <a
+                  href="tel:+919409085785"
+                  className="text-sm text-gray-400 hover:text-primary-light ml-1"
+                >
+                  +919409085785
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-primary-light" />
