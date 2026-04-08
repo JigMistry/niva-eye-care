@@ -215,7 +215,7 @@ export default function Hero() {
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-8">
           {[
             { value: "20+", label: "Years Experience" },
-            { value: "15,000+", label: "Happy Patients" },
+            { value: "20,000+", label: "Happy Patients" },
             { value: "10,000+", label: "Successful Surgeries" },
             { value: "4.9", label: "Google Rating" },
             
