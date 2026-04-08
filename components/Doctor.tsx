@@ -56,7 +56,7 @@ export default function Doctor() {
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             An experienced and highly skilled ophthalmologist dedicated to
-            providing the best eye care with a personal touch.
+            provide the best eye care with a personal touch.
           </p>
         </motion.div>
 
@@ -103,7 +103,7 @@ export default function Doctor() {
                   </span>
                   , with a passion for restoring and preserving vision. With over a 20 years
                   of experience, she specializes in advanced cataract surgery
-                  (phacoemulsification) and glaucoma management. Have done fellowship in Glaucoma from Aravind Eye Hospital, Madurai. Dr. Patel is committed to provide personalized care and achieving the best outcomes for her patients.
+                  (phacoemulsification) and glaucoma management. Have done fellowship in Glaucoma from Aravind Eye Hospital, Madurai. Dr. Patel is committed to providing personalized care and achieving the best outcomes for her patients.
                 </p>
                 <p className="mt-3 leading-relaxed text-gray-600">
                   Known for her gentle approach and meticulous attention to detail, Dr.
