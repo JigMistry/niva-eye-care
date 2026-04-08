@@ -40,7 +40,7 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "Safe Procedures",
-    description: "Strict hygiene protocols and safety standards maintained for all treatments.",
+    description: "Sterility and safety protocols maintained for all treatments.",
   },
 ];
 

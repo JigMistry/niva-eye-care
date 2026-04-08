@@ -29,7 +29,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["For Appointments & Enquiries", "Phone: 079 2743 1530, 94260 77766"],
+    lines: ["For Appointments & Enquiries", "Phone: +91 9426077766, +91 9409085785"],
     isLink: true,
     href: "tel:+919426077766",
   },
