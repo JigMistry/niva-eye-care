@@ -39,13 +39,13 @@ const services = [
     title: "General Ophthalmology",
     description:
       "Complete eye health examinations and treatment for all common eye conditions and vision problems.",
-    features: ["Comprehensive exams", "Prescription updates", "Preventive care"],
+    features: ["Comprehensive examinations", "Prescription updates", "Preventive care"],
   },
   {
     icon: "⚡",
     title: "Eye Laser Treatment",
     description:
-      "Precision laser procedures for Glaucoma, posterior capsular opacification and other disorders.",
+      "Laser procedures for Glaucoma, posterior capsular opacification and other disorders.",
     features: ["YAG laser - Capsulotomy", "YAG laser - Peripheral iridotomy", "Safe & effective"],
   },
 ];

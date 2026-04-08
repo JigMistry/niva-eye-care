@@ -100,7 +100,7 @@ export default function About() {
               using the latest diagnostic equipment and surgical techniques.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              From routine eye check-ups to complex surgeries like cataract, our
+              From routine eye check-ups to complex surgeries like Cataract, Glaucoma, Pterygium, our
               team ensures that you receive the highest quality treatment in a comfortable
               and stress-free environment.
             </p>
