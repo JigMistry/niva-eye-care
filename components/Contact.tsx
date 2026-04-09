@@ -36,9 +36,9 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    lines: ["For General Enquiries", "mmpatel_111@yahoo.com"],
+    lines: ["For General Enquiries", "nivaeyecarecentre@gmail.com"],
     isLink: true,
-    href: "mailto:mmpatel_111@yahoo.com",
+    href: "mailto:nivaeyecarecentre@gmail.com",
   },
 ];
 

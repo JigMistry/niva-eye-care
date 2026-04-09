@@ -87,10 +87,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-primary-light" />
                 <a
-                  href="mailto:mmpatel_111@yahoo.com"
+                  href="mailto:nivaeyecarecentre@gmail.com"
                   className="text-sm text-gray-400 hover:text-primary-light"
                 >
-                  mmpatel_111@yahoo.com
+                  nivaeyecarecentre@gmail.com
                 </a>
               </div>
             </div>
