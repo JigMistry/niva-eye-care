@@ -83,7 +83,7 @@ export default function Doctor() {
                 </div>
                 <h3 className="mt-6 text-center text-2xl font-bold">Dr. Minal M. Patel</h3>
                 <p className="mt-1 text-center text-white/80">MS (Ophthalmology)</p>
-                <p className="mt-1 text-center text-sm text-white/60">Eye Surgeon & Specialist</p>
+                {/* <p className="mt-1 text-center text-sm text-white/60">Eye Surgeon & Specialist</p> */}
                 <div className="mt-4 flex items-center gap-2 rounded-full bg-amber-400/20 px-4 py-2 ring-1 ring-amber-300/40">
                   <Medal className="h-4 w-4 text-amber-300" />
                   <span className="text-sm font-semibold text-amber-100">Gold Medalist</span>
@@ -103,7 +103,7 @@ export default function Doctor() {
                   </span>
                   , with a passion for restoring and preserving vision. With over a 20 years
                   of experience, she specializes in advanced cataract surgery
-                  (phacoemulsification) and glaucoma management. Have done fellowship in Glaucoma from Aravind Eye Hospital, Madurai. Dr. Patel is committed to providing personalized care and achieving the best outcomes for her patients.
+                  (phacoemulsification) and glaucoma management. Have done fellowship in Glaucoma from Aravind Eye Hospital, Madurai. Dr. Patel is committed to provide personalized care and achieving the best outcomes for her patients.
                 </p>
                 <p className="mt-3 leading-relaxed text-gray-600">
                   Known for her gentle approach and meticulous attention to detail, Dr.

@@ -9,7 +9,7 @@ const values = [
     icon: Heart,
     title: "Compassionate Care",
     description:
-      "Every patient is treated with warmth, empathy, and individual attention throughout their journey.",
+      "Every patient is treated with warmth, empathy, and individual attention throughout the journey.",
   },
   {
     icon: Shield,
@@ -21,7 +21,7 @@ const values = [
     icon: Award,
     title: "Excellence",
     description:
-      "Committed to delivering the best outcomes with cutting-edge technology and expertise.",
+      "Committed to deliver the best outcomes with cutting-edge technology and expertise.",
   },
   {
     icon: Users,
@@ -62,8 +62,8 @@ export default function About() {
                   </div>
                   <div className="h-px bg-linear-to-r from-primary/30 to-secondary/20" />
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Niva Eye Care has been a trusted name in comprehensive eye healthcare
-                    in Ahmedabad for over a decade. We combine advanced medical technology
+                    Niva Eye Care is a trusted name in comprehensive eye healthcare
+                    in Ahmedabad since more than a decade. We combine advanced medical technology
                     with a personal touch that makes every patient feel at home.
                   </p>
                   {/* <div className="grid grid-cols-2 gap-4">
@@ -97,7 +97,7 @@ export default function About() {
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
               At Niva Eye Care, we believe that everyone deserves clear vision and healthy
               eyes. Led by Dr. Minal M. Patel, our hospital provides personalized eye care
-              using the latest diagnostic equipment and surgical techniques.
+              using the latest diagnostic equipments and surgical techniques.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
               From routine eye check-ups to complex surgeries like Cataract, Glaucoma, Pterygium, our

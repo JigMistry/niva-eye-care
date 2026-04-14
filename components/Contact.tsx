@@ -18,7 +18,7 @@ const contactInfo = [
     icon: Clock,
     title: "Timings",
     lines: [
-      "Monday - Friday",
+      "Monday To Friday",
       "Morning: 10:00 AM - 1:00 PM",
       "Evening: 5:00 PM - 7:00 PM",
       "Saturday",
@@ -29,7 +29,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["For Appointments & Enquiries", "Phone: +91 9426077766, +91 9409085785"],
+    lines: ["For Appointment & Enquiries", "Phone: +91 9426077766, +91 9409085785"],
     isLink: true,
     href: "tel:+919426077766",
   },
