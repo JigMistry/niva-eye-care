@@ -6,34 +6,34 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Rajesh Sharma",
+    name: "Bhavik Patel",
     procedure: "Cataract Surgery",
     rating: 5,
-    text: "Dr. Minal Patel performed my cataract surgery and the results are amazing. I can see clearly again! The entire team was very caring and professional. Highly recommend Niva Eye Care.",
+    text: "Dr Minal is an excellent ophthalmologist with an exceptional surgical skill. My mother underwent both eye cataract surgery here and we are very happy with the treatment and care received here. I recommend her for any kind of eye problem.",
   },
   {
-    name: "Priya Mehta",
-    procedure: "LASIK Surgery",
+    name: "Jay Shukla",
+    procedure: "Cataract Surgery",
     rating: 5,
-    text: "I was nervous about LASIK but Dr. Patel made the entire experience stress-free. The procedure was quick and my recovery was speedy. Best decision I ever made for my eyes!",
+    text: "My beloved mother had cataract surgery with Dr. Minal Patel, and we’re very happy with the results. The lens was carefully selected for her eyes, and her vision has improved significantly. Dr. Patel’s expertise, personalised care, and genuine compassion truly stood out. Highly recommended!",
   },
   {
-    name: "Amit Patel",
-    procedure: "Glaucoma Treatment",
+    name: "Rahul Salvi",
+    procedure: "Eye Surgery",
     rating: 5,
-    text: "Excellent customer service and personal care. Dr. Patel explained everything clearly about my glaucoma treatment. The follow-up care has been thorough and consistent.",
+    text: "Being a highly skilled Weaver need 100% outcome of my vision....Roamed all the big names for treatment for 6 years...Also afraid of the surgery, Then I got reference of Dr. Minalben....By god she got best clinical knowledge and extraordinary surgical skills...Very humble Nature....Hospital is so neat and clean...Well maintained hygiene..Staff is very helpful and well mannered....Highly Recommended for eye treatment.",
   },
   {
-    name: "Sunita Desai",
+    name: "Rasilaben Trivedi",
     procedure: "Eye Testing",
     rating: 5,
-    text: "Visited for a routine eye check-up and was impressed by the modern equipment and friendly staff. Dr. Patel is very thorough and takes time to explain everything properly.",
+    text: "Excellent customer service and personal care.Dr.Minal Patel was excellent ,very interactive and caring.Other staff members like Moulinbhai,Dhruv,Gayatriben and others are also outstanding.",
   },
   {
-    name: "Kiran Shah",
+    name: "Hitesh Patel",
     procedure: "Cataract Surgery",
     rating: 5,
-    text: "My mother had her cataract surgery here and had a wonderful experience. Gentle care, speedy recovery, and excellent post-operative support. The best eye hospital in Ahmedabad.",
+    text: "Really impressed by the experienced doctor and staff.Excellent timely and quality service I got related to my cataract operation.Pre and post operation follows are too good.Doctor (Dr. Minal)and staff are very active and attentive towards the patient.Must say to visit for eye related issues.",
   },
   {
     name: "Neha Joshi",

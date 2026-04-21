@@ -73,7 +73,7 @@ export default function Doctor() {
               <div className="relative flex flex-col items-center justify-center bg-linear-to-br from-primary to-primary-dark p-8 text-white md:col-span-2 md:p-10">
                 <div className="relative h-40 w-40 overflow-hidden rounded-full ring-4 ring-white/30 sm:h-48 sm:w-48">
                   <Image
-                    src="/dr_minal_patel_.png"
+                    src="/minal_img.jpeg"
                     alt="Dr. Minal M. Patel - Ophthalmologist at Niva Eye Care Ahmedabad"
                     fill
                     sizes="(max-width: 640px) 160px, 192px"
