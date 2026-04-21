@@ -48,7 +48,7 @@ export default function Hero() {
                     alt="Dr. Minal M. Patel"
                     fill
                     sizes="128px"
-                    className="object-cover"
+                    className="object-cover object-top"
                     priority
                   />
                 </div>
