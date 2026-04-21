@@ -21,7 +21,7 @@ const testimonials = [
     name: "Rahul Salvi",
     procedure: "Eye Surgery",
     rating: 5,
-    text: "Being a highly skilled Weaver need 100% outcome of my vision....Roamed all the big names for treatment for 6 years...Also afraid of the surgery, Then I got reference of Dr. Minalben....By god she got best clinical knowledge and extraordinary surgical skills...Very humble Nature....Hospital is so neat and clean...Well maintained hygiene..Staff is very helpful and well mannered....Highly Recommended for eye treatment.",
+    text: "Being a highly skilled Weaver need 100% outcome of my vision....Roamed all the big names for treatment for 6 years...Also afraid of the surgery, Then I got reference of Dr. Minalben. By god she got best clinical knowledge and extraordinary surgical skills. Hospital is so neat and clean. Highly Recommended for eye treatment.",
   },
   {
     name: "Rasilaben Trivedi",
