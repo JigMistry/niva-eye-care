@@ -9,9 +9,9 @@ const contactInfo = [
     icon: MapPin,
     title: "Visit Us",
     lines: [
-      "101, Pushpraj Arcade, Sola Road",
-      "Above Axis Bank, Near Bhuyangdev BRTS",
-      "Bhuyangdev, Ahmedabad - 380063",
+      "101, Pushpraj Arcade, Above Axis Bank",
+      "Near Bhuyangdev BRTS, Sola Road",
+      "Bhuyangdev, Ahmedabad - 380061",
     ],
   },
   {

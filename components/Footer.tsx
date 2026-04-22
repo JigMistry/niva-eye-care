@@ -65,8 +65,8 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary-light" />
                 <p className="text-sm text-gray-400">
-                  101, Pushpraj Arcade, Sola Road, Above Axis Bank, Near Bhuyangdev
-                  BRTS, Ahmedabad - 380063
+                  101, Pushpraj Arcade, Above Axis Bank, Near Bhuyangdev
+                  BRTS, Sola Road, Bhuyangdev, Ahmedabad - 380061
                 </p>
               </div>
               <div className="flex items-center gap-3">

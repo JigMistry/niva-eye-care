@@ -122,10 +122,10 @@ const jsonLd = {
   address: {
     "@type": "PostalAddress",
     streetAddress:
-      "101, Pushpraj Arcade, Sola Road, Above Axis Bank, Near Bhuyangdev BRTS",
+      "101, Pushpraj Arcade, Above Axis Bank, Near Bhuyangdev BRTS, Sola Road, Bhuyangdev",
     addressLocality: "Ahmedabad",
     addressRegion: "Gujarat",
-    postalCode: "380063",
+    postalCode: "380061",
     addressCountry: "IN",
   },
   geo: {
