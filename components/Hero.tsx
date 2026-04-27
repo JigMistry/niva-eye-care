@@ -127,7 +127,7 @@ export default function Hero() {
               className="mt-8 flex items-center justify-center gap-2 text-gray-500 lg:justify-start"
             >
               <MapPin className="h-4 w-4 text-primary" />
-              <span className="text-sm">Bhuyangdev, Sola Road, Ahmedabad - 380063</span>
+              <span className="text-sm">Bhuyangdev, Sola Road, Ahmedabad - 380061</span>
             </motion.div>
           </motion.div>
 
